@@ -10,7 +10,12 @@
 
 <body>
     <h1>javacript</h1>
+    <p id="id">Belajar javascript</p>
+    <button onclick="fnc()">klik</button>
     <script>
+        function fnc() {
+            document.querySelector("#id").innerHTML = "klik"
+        }
         console.log("1")
         document.write("2")
     </script>
